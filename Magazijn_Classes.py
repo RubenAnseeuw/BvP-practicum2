@@ -15,7 +15,7 @@ class Magazijn:
         for product in self._lijstVanProducten:
             print(product.getInformatie())
 
-    def meestWintstgevendeProduct(self):
+    def meestWintstgevendProduct(self):
         maximum = 0
         for product in self._lijstVanProducten:
             if product.bepaalWinst() > maximum:
